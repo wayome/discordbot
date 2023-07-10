@@ -25,7 +25,7 @@ async def on_raw_reaction_add(payload):
     if (message.author == user):
         return
 # Bot 専用のチャンネル ID 
-    channel = client.get_channel(CHANNEL_ID)
+    channel = client.get_channel(1127843996429996073)
 # 左からリアクションされたメッセージの投稿主、リアクション、リアクションしたユーザの表示名、
 # メッセージの内容、メッセージへのリンク
     msg = f"{message.author.mention} {payload.emoji}\nFrom:{user.display_name} \
